@@ -1,0 +1,23 @@
+Medius_Assignment/
+│
+├── core/                   # Project settings
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+│
+├── converter/              # Conversion logic
+│   ├── migrations/
+│   ├── templates/
+│   │   └── converter/
+│   │       ├── upload.html  # File selection page
+│   │       └── result.html  # Download page
+│   ├── __init__.py
+│   ├── urls.py
+│   ├── utils.py            # PDF Logic
+│   └── views.py            # Synchronous View
+│
+├── media/                  # Stores uploaded/converted files
+├── manage.py
+├── requirements.txt
+└── runtime.txt             # Required for Heroku/Render

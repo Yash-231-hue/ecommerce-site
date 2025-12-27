@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Django specific
+*.pyc
+__pycache__/
+db.sqlite3
+staticfiles/
+
+# Project specific
+media/
+*.pdf
+*.docx
+
+# Environment variables
+.env

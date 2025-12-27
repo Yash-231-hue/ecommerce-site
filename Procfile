@@ -1,0 +1,1 @@
+web: gunicorn pdf_to_docx.wsgi
